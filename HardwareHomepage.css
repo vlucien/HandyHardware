@@ -1,0 +1,61 @@
+.header{
+	background-color: white;
+	display: inline-grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto)
+}
+h1{
+	position:absolute;
+	font-size: 125px;
+	margin-top: 11%;
+	color: white;
+}
+img {
+    max-width:80%;
+    height:auto;
+}
+#hero{
+	min-width: -webkit-fill-available;
+}
+.topnav nav a {
+	text-decoration: none;
+	color: white;
+
+}
+.topnav nav a:hover{
+	color: grey;
+}
+.logo{
+	grid-column: 1;
+	grid-row: 1;
+}
+.login{
+	grid-column: 4;
+	grid-row: 1;
+	padding-top: 40px;
+	padding-left: 40px;
+}
+.search{
+	grid-column:  2 / 3 ;
+	grid-row: 1;
+	padding-top: 40px;
+	padding-left: 150px;
+}
+#searchbar{
+	width: 300px;
+}
+.topnav{
+	background-color: #44a4d3;
+	text-align: center;
+	font-size: 20px;
+}
+nav a{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.footer{
+	background-color: #707070;
+	text-align: center;
+	margin-bottom: 0px;
+}
